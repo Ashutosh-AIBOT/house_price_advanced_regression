@@ -1,0 +1,26 @@
+{
+  "Ridge": {
+    "rmse": 0.1274,
+    "mae": 0.0855,
+    "r2": 0.913,
+    "train_time_sec": 0.13
+  },
+  "XGBoost": {
+    "rmse": 0.1327,
+    "mae": 0.0863,
+    "r2": 0.9057,
+    "train_time_sec": 1.58
+  },
+  "LightGBM": {
+    "rmse": 0.1345,
+    "mae": 0.0879,
+    "r2": 0.903,
+    "train_time_sec": 4.46
+  },
+  "Stacking Ensemble": {
+    "rmse": 0.1269,
+    "mae": 0.0814,
+    "r2": 0.9138,
+    "train_time_sec": 11.93
+  }
+}
